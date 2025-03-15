@@ -1,13 +1,17 @@
-# Themis Lua Lib
+# 📚 Themis Lua Lib
 
 ![Version](https://img.shields.io/badge/Version-0.1.0--alpha.1-blue.svg)
 ![Lua](https://img.shields.io/badge/Lua-5.4%2B-blue.svg)
 
-© 2025 BOYER David et COZE Sébastien. All rights reserved. This API is protected by copyright laws. See the LICENSE file for more information.
+Themis Lua Lib est la libraire Lua qui vous permettra de gérer les accès des personnages et des utilisateurs, sans intervention manuelle. Ainsi, chaque joueur a un compte et ses personnages sur la plateforme Themis.
 
-Welcome to Themis Lua Lib! This project is used to communicate with the Themis App.
+## 👤 Création d'un utilisateur
 
-## Create a user
+A la première connection d'un utilisateur sur le serveur, ce-dit utilisateur devra être enregistré sur Themis. Cela peut se faire, par exemple, via une interface en jeu.
+
+- Le nom d'utilisateur devra être unique. Une erreur vous sera retourné si ce n'est pas le cas.
+- L'adresse mail devra être unique. Une erreur vous sera retourné si ce n'est pas le cas.
+- L'identifiant discord n'est pas obligatoire. Néanmoins, sans celui-ci, vous ne pourez pas créer de personnage avec cet utilisateur.
 
 ```lua
 require("themis_lib/models/user")
@@ -24,7 +28,13 @@ local user = User:new("
 user:create()
 ```
 
-## Create a character
+## 👥 Création d'un personnage
+
+A la création d'un personnage sur le serveur, ce-dit personnage devra être enregistré sur Themis.
+
+L'ensemble des informations (prénom, name et date de naissance) sont obligatoire.
+
+⚠️ Il ne peut y avoir plusieurs personnages avec la même prénom, nom et date de naissance en simultané. 
 
 ```lua
 require("themis_lib/models/user")
@@ -45,36 +55,12 @@ local character = Character:new("
 character:create()
 ```
 
-## Get a specific user
+## 📈 Évolutions futures
 
-### By id
+✅ Enregistrement automatique du permis de conduire
 
-```lua
-require("themis_lib/models/user")
+✅ Enregistrement automatique des véhicules
 
-local user = User.getById(589)
-```
+✅ Enregistrement automatique des armes
 
-### By discord id
-
-```lua
-require("themis_lib/models/user")
-
-local user = User.getById("688020529340481571")
-```
-
-### By username
-
-```lua
-require("themis_lib/models/user")
-
-local user = User.getById("Bob158")
-```
-
-## Get the characters of a specific user
-
-```lua
-require("themis_lib/models/character")
-
-local characters = Character.getByUserId(589)
-```
+✅ Obtention automatique des convocations lors de la connexion du personnage
