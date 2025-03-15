@@ -57,3 +57,9 @@ L’objectif : permettre aux joueurs avec plusieurs rôles (par exemple **FDO** 
 ✅ **Respect des droits RGPD** :  
 - Gestion des données conforme aux réglementations européennes.  
 - Protection et contrôle des informations personnelles assurés.
+
+---
+
+### 🖼️ **Page d'accueil**
+![Page d'accueil dark](https://i.imgur.com/xdADflp.png)
+![Page d'accueil light](https://i.imgur.com/9LtvDug.png)
