@@ -64,7 +64,7 @@ L'**APJ** peut consulter et télécharger le PVI une fois qu'il est généré.
 ### 3. **Procédure d'Interpellation - PVG**  
 Une fois qu'un **OPJ** soumet le **PVG**, l'**APJ** peut également visualiser ce document.
 
-![Procédure d'interpellation - PVG](https://i.imgur.com/CivKZJa.png)  
+![Procédure d'interpellation - PVG](https://i.imgur.com/ZYvwqef.png)  
 *Exemple de Procédure d'Interpellation - PVG.*
 
 ---
