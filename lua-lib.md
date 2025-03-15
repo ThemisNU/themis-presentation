@@ -13,7 +13,7 @@ A la première connection d'un utilisateur sur le serveur, ce-dit utilisateur de
 - L'adresse mail devra **être unique**. Une erreur vous sera retourné si ce n'est pas le cas.
 - L'identifiant discord n'est pas obligatoire. Néanmoins, sans celui-ci, vous ne pourez pas créer de personnage avec cet utilisateur.
 
-⚠️ En respect au RGPD et à la LIL, vous devez donner la possibilité à l'utilisateur de ce rendre sur Themis (via un lien, par exemple).
+⚠️ En respect au RGPD et à la LIL, vous devez donner la possibilité à l'utilisateur de se rendre sur Themis (via un lien, par exemple).
 
 ```lua
 require("themis_lib/models/user")
