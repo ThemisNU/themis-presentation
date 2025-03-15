@@ -1,3 +1,8 @@
+---
+layout: default
+title: Annuaire | Themis
+---
+
 # 📋 **Annuaire**
 
 ## 🔍 **Présentation**  
