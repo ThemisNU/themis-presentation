@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/e67c38ca-3389-4611-9ea7-f195429fe606)# 📋 **LRP** - Logiciel de Rédaction de Procédures
+# 📋 **LRP** - Logiciel de Rédaction de Procédures
 
 ## 🔍 **Présentation**  
 
