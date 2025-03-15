@@ -1,3 +1,8 @@
+---
+layout: default
+title: LRP | Themis
+---
+
 # 📋 **LRP** - Logiciel de Rédaction de Procédures
 
 ## 🔍 **Présentation**  
