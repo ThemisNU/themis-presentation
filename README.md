@@ -1,21 +1,63 @@
-# Themis Lua Lib
+# 🚓 **Themis**  
 
-![Version](https://img.shields.io/badge/Version-0.1.0--alpha.1-blue.svg)
-![Lua](https://img.shields.io/badge/Lua-5.4%2B-blue.svg)
+![Version](https://img.shields.io/badge/Version-0.1.0--alpha.1-blue.svg)  
 
-© 2025 BOYER David et COZE Sébastien. All rights reserved. This API is protected by copyright laws. See the LICENSE file for more information.
+---
 
-Welcome to Themis Lua Lib! This project is used to communicate with the Themis App.
+## 🛠️ **Présentation du projet**  
 
-## Create a user
+**Themis** est un projet conçu pour **reproduire le fonctionnement des fichiers** utilisés par les forces de l’ordre françaises, notamment :  
 
-```lua
-require("themis_lib/models/user")
+- **FPR** *(Fichier des personnes recherchées)*  
+- **TAJ** *(Traitement des antécédents judiciaires)*  
+- **FNPC** *(Fichier national des permis de conduire)*  
+- **SIV** *(Système d'immatriculation des véhicules)*  
+- **SIA** *(Système d’information sur les armes)*  
+- **ANNUAIRE** *(Contacts internes des services)*  
+- **LRP** *(Logiciel de rédaction des procédures)* → **Automatisation des interpellations, plaintes, etc.**  
 
-local User = User:new("
-    "Bob158",               -- Username
-    "123456",               -- Password
-    "bob.dupond@email.fr"   -- E-mail
-    "688020529340481571"    -- Discord ID (nullable)
-)
-```
+---
+
+## 🔧 **Technologies utilisées**  
+
+<div align="center">
+
+![Lua](https://img.shields.io/badge/Lua-v5.4%2B-darkblue.svg)  
+![Laravel](https://img.shields.io/badge/Laravel-v11%2B-red.svg)  
+![Inertia.js](https://img.shields.io/badge/Inertia.js-v2.0.5%2B-purple.svg)  
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-v4%2B-blue.svg)  
+![React](https://img.shields.io/badge/React-v18%2B-lightblue.svg)  
+
+</div>
+
+### 🚀 Themis : Système de gestion autonome
+
+Contrairement au site de fichiers actuel, **Themis** est **entièrement autonome**.  
+Un script **Lua** (détaillé plus bas) est fourni, permettant de **gérer uniquement** les accès des personnages et des utilisateurs — **sans intervention manuelle**.
+
+---
+
+### 🧩 **Système de personnages intégré**
+
+- **Création automatique d’utilisateur** lors de la première connexion en jeu.  
+- **Création de personnage** directement synchronisée avec **Themis** dès qu’un nouveau personnage est créé in-game.  
+
+🔹 **Pourquoi une sélection de personnage ?**  
+L’objectif : permettre aux joueurs avec plusieurs rôles (par exemple **FDO** et **civil**) d’accéder uniquement aux données liées à leur personnage actif.  
+👉 **Chaque session roleplay reste ainsi distincte et immersive.**
+
+---
+
+### 🎯 **Fonctionnalités clés**
+
+✅ **Personnalisation du thème** :  
+- **Mode sombre** 🌙 et **mode clair** ☀️ disponibles.  
+- L’utilisateur peut modifier son thème à tout moment selon ses préférences.  
+
+✅ **Interface 100% responsive** :  
+- Adaptée à **tous les écrans** (PC, tablette, mobile).  
+- Expérience fluide et ergonomique, peu importe le support.  
+
+✅ **Respect des droits RGPD** :  
+- Gestion des données conforme aux réglementations européennes.  
+- Protection et contrôle des informations personnelles assurés.
