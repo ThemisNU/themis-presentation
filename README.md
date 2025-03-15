@@ -1,3 +1,8 @@
+---
+layout: default
+title: Accueil | Themis
+---
+
 # 🚓 **Themis**  
 
 ![Version](https://img.shields.io/badge/Version-0.1.0--alpha.1-blue.svg)  
