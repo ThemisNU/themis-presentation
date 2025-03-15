@@ -34,16 +34,17 @@ body {
     color: #ddd;
 }
 
-img {
-    max-width: 800px;
-    margin: auto;
-    padding: 20px;
-}
-
 .content {
     max-width: 800px;
     margin: 80px auto 20px;
     padding: 20px;
+}
+
+.content img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
 }
 
 footer {
