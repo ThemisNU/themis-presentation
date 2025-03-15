@@ -8,27 +8,22 @@
 
 **Themis** est un projet conçu pour **reproduire le fonctionnement des fichiers** utilisés par les forces de l’ordre françaises, notamment :  
 
-- **FPR** *(Fichier des personnes recherchées)*  
-- **TAJ** *(Traitement des antécédents judiciaires)*  
-- **FNPC** *(Fichier national des permis de conduire)*  
-- **SIV** *(Système d'immatriculation des véhicules)*  
-- **SIA** *(Système d’information sur les armes)*  
-- **ANNUAIRE** *(Contacts internes des services)*  
-- **LRP** *(Logiciel de rédaction des procédures)* → **Automatisation des interpellations, plaintes, etc.**  
-
+- [**FPR** *(Fichier des personnes recherchées)*](fpr.md)  
+- [**TAJ** *(Traitement des antécédents judiciaires)*](taj.md)  
+- [**FNPC** *(Fichier national des permis de conduire)*](fnpc.md)  
+- [**SIV** *(Système d'immatriculation des véhicules)*](siv.md)  
+- [**SIA** *(Système d’information sur les armes)*](sia.md)  
+- [**ANNUAIRE** *(Contacts internes des services)*](annuaire.md)  
+- [**LRP** *(Logiciel de rédaction des procédures)* → **Automatisation des interpellations, plaintes, etc.**](lrp.md)  
 ---
 
 ## 🔧 **Technologies utilisées**  
-
-<div align="center">
 
 ![Lua](https://img.shields.io/badge/Lua-v5.4%2B-darkblue.svg)  
 ![Laravel](https://img.shields.io/badge/Laravel-v11%2B-red.svg)  
 ![Inertia.js](https://img.shields.io/badge/Inertia.js-v2.0.5%2B-purple.svg)  
 ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-v4%2B-blue.svg)  
 ![React](https://img.shields.io/badge/React-v18%2B-lightblue.svg)  
-
-</div>
 
 ### 🚀 Themis : Système de gestion autonome
 
