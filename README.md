@@ -14,7 +14,7 @@
 - [**SIV** *(Système d'immatriculation des véhicules)*](siv.md)  
 - [**SIA** *(Système d’information sur les armes)*](sia.md)  
 - [**ANNUAIRE** *(Contacts internes des services)*](annuaire.md)  
-- [**LRP** *(Logiciel de rédaction des procédures)* → **Automatisation des interpellations, plaintes, etc.**](lrp.md)  
+- [**LRP** *(Logiciel de rédaction des procédures)*](lrp.md)  
 ---
 
 ## 🔧 **Technologies utilisées**  
