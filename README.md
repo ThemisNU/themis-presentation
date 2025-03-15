@@ -8,13 +8,14 @@
 
 **Themis** est un projet conçu pour **reproduire le fonctionnement des fichiers** utilisés par les forces de l’ordre françaises, notamment :  
 
-- [**FPR** *(Fichier des personnes recherchées)*](fpr.md)  
-- [**TAJ** *(Traitement des antécédents judiciaires)*](taj.md)  
-- [**FNPC** *(Fichier national des permis de conduire)*](fnpc.md)  
-- [**SIV** *(Système d'immatriculation des véhicules)*](siv.md)  
-- [**SIA** *(Système d’information sur les armes)*](sia.md)  
-- [**ANNUAIRE** *(Contacts internes des services)*](annuaire.md)  
-- [**LRP** *(Logiciel de rédaction des procédures)*](lrp.md)  
+- [**FPR** *(Fichier des personnes recherchées)*](fpr)
+- [**TAJ** *(Traitement des antécédents judiciaires)*](taj)
+- [**FNPC** *(Fichier national des permis de conduire)*](fnpc)
+- [**SIV** *(Système d'immatriculation des véhicules)*](siv)
+- [**SIA** *(Système d’information sur les armes)*](sia)
+- [**ANNUAIRE** *(Contacts internes des services)*](annuaire)
+- [**LRP** *(Logiciel de rédaction des procédures)*](lrp)
+
 ---
 
 ## 🔧 **Technologies utilisées**  
