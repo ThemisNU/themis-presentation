@@ -22,8 +22,10 @@ Lorsque le personnage actif de l'utilisateur est au minimum **Agent de Police Ju
 - **Plainte**
 - *(d'autres types viendront avec les mises à jour futures...)*
 
-Une fois la procédure choisie, un numéro de procédure est automatiquement généré au format :  
-`SERVICE | PROCEDURE_ID/ANNEE_DE_CREATION`, par exemple :  
+Une fois la procédure choisie, un numéro de procédure est automatiquement généré au format :
+
+`SERVICE | PROCEDURE_ID/ANNEE_DE_CREATION`, par exemple :
+
 `GN | 1/2025`
 
 ### 📋 **Création des documents en fonction du type de procédure**  
