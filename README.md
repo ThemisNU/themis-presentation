@@ -20,7 +20,7 @@
 
 ## 🔧 **Technologies utilisées**  
 
-![Lua](https://img.shields.io/badge/Lua-v5.4%2B-darkblue.svg)  
+![Lua](https://img.shields.io/badge/Lua-5.4%2B-blue.svg)  
 ![Laravel](https://img.shields.io/badge/Laravel-v11%2B-red.svg)  
 ![Inertia.js](https://img.shields.io/badge/Inertia.js-v2.0.5%2B-purple.svg)  
 ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-v4%2B-blue.svg)  
@@ -29,7 +29,7 @@
 ### 🚀 Themis : Système de gestion autonome
 
 Contrairement au site de fichiers actuel, **Themis** est **entièrement autonome**.  
-Un script **Lua** (détaillé plus bas) est fourni, permettant de **gérer uniquement** les accès des personnages et des utilisateurs — **sans intervention manuelle**.
+Une librairie **Lua** (détaillée plus bas) est fournie, permettant de **gérer uniquement** les accès des personnages et des utilisateurs — **sans intervention manuelle**.
 
 ---
 
