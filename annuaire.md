@@ -8,6 +8,7 @@ title: Annuaire | Themis
 ## 🔍 **Présentation**  
 
 L'**annuaire** permet à chaque force de l'ordre qu'importe son service de trouver et/ou contacter un membre d'un service.
+
 Il est possible de convoquer une personne, en sélectionnant le/les motif(s) légaux.
 ---
 
