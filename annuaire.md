@@ -20,8 +20,8 @@ Il est possible de convoquer une personne, en sélectionnant le/les motif(s) lé
 ![Édition](https://i.imgur.com/iqysjoW.png)  
 *Édition d'un contact.*
 
-![Convocation](https://i.imgur.com/8tE9IAA.png)
 *Convoquer une personne*
+![Convocation](https://i.imgur.com/8tE9IAA.png)
 
 ![Exemple convocation](https://i.imgur.com/eFDV05I.png)
 ![Convocation](https://i.imgur.com/9knVIJa.png)
