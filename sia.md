@@ -27,6 +27,7 @@ Le **SIA** (Système d'Information sur les Armes) est une base de données centr
 
 Voici des exemples d'images du SIA
 
-![Liste](https://i.imgur.com/Sqs67t9.png)  
+![Liste](https://i.imgur.com/Sqs67t9.png)
+![Ajout](https://i.imgur.com/alrTHxB.png)
 ![Vision](https://i.imgur.com/UlJNNfU.png)
 
