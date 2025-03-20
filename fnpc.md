@@ -37,7 +37,7 @@ Le **FNPC** (Fichier National des Permis de Conduire) est une base de données c
 
 ## 🖼️ **Exemples d'interface**  
 
-Voici quelques aperçus d'une recherche dans le système **FPR** :  
+Voici quelques aperçus d'une recherche dans le système **FNPC** :  
 
 ![📌 Liste](https://i.imgur.com/10ITZz8.png)  
 ![👁️ Vision](https://i.imgur.com/4ZY342W.png)  
