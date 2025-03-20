@@ -42,7 +42,7 @@ Voici quelques aperçus d'une recherche dans le système **FPR** :
 ![📌 Liste](https://i.imgur.com/10ITZz8.png)  
 ![👁️ Vision](https://i.imgur.com/4ZY342W.png)  
 ![🔎 Vision 2](https://i.imgur.com/UfcPAc6.png)
-**Ne pas prendre en compte les -12 points, c'est un exemple pour montrer le PDF**
-![PDF](https://i.imgur.com/WwAGzVQ.png)
+**Ne pas prendre en compte les -12 points, c'est un exemple pour montrer l'image**
+![Image](https://i.imgur.com/WwAGzVQ.png)
 ![Suspension](https://i.imgur.com/o9hPMxW.png)
 ![Suspension 2](https://i.imgur.com/luBsG9f.png)
