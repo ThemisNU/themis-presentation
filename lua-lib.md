@@ -21,45 +21,67 @@ A la première connection d'un utilisateur sur le serveur, ce-dit utilisateur de
 ⚠️ En respect au RGPD et à la LIL, vous devez donner la possibilité à l'utilisateur de se rendre sur Themis (via un lien, par exemple).
 
 ```lua
-require("themis_lib/models/user")
-
--- Create the user instance.
-local user = User:new("
-    "Bob158",               -- Username
-    "123456",               -- Password
-    "bob.dupond@email.fr"   -- E-mail
-    "688020529340481571"    -- Discord ID (nullable)
-)
-
--- Create the user into the Themis Website.
-user:create()
+local Themis = exports['themis']:getThemis()
+if Themis then
+    -- Create the user instance.
+    local user = Themis.User:new(
+        "Bob125",               -- Username
+        "Secretpassword",       -- Password
+        "bob@example.com",      -- Email
+        "332514331516207105"    -- Discord ID (optional but recommended)
+    )
+    -- Create the user into the Themis Website.
+    Themis.User:create(
+        user,
+        function(success, user)
+            if success then
+                print("User id:", user.id)
+                -- You can work with the new user here.
+            else
+                print("Failed to create user.")
+            end
+        end
+    )
+else
+    print("Themis is not accessible.")
+end
 ```
 
 ## 👥 Création d'un personnage
 
 A la création d'un personnage sur le serveur, ce-dit personnage devra être enregistré sur Themis.
 
-L'ensemble des informations (prénom, name et date de naissance) sont **obligatoire**.
+Le numéro de téléphone n'est pas obligatoire.
 
 ⚠️ Il ne peut y avoir plusieurs personnages avec la même prénom, nom et date de naissance en simultané. 
 
 ```lua
-require("themis_lib/models/user")
-require("themis_lib/models/character")
-
--- Get the current user by this discord id. You can also get by id and by username.
-local current_user = User.getByDiscordId("688020529340481571")
-
--- Create the user instance.
-local character = Character:new("
-    current_user.id,        -- Current user ID
-    "Loïc",                 -- Firstname
-    "Dubois"                -- Lastname
-    "1987-12-25"            -- Birthdate (YYYY-mm-dd)
-)
-
--- Create the character into the Themis Website.
-character:create()
+local Themis = exports['themis']:getThemis()
+if Themis then
+    -- Create the character instance.
+    local character = Themis.Character:new(
+        5,                      -- User ID
+        "Bob",                  -- Firstname
+        "Dupond",               -- Lastname
+        "1989-08-12",           -- Birthdate
+        "Nice",                 -- Birthplace
+        "0658789887"            -- Phone number (optional)
+    )
+    -- Create the character into the Themis Website.
+    Themis.Character:create(
+        character,
+        function(success, character)
+            if success then
+                print("Character id:", character.id)
+                -- You can work with the new character here.
+            else
+                print("Failed to create character.")
+            end
+        end
+    )
+else
+    print("Themis is not accessible.")
+end
 ```
 
 ## 📈 Évolutions futures
@@ -69,5 +91,7 @@ character:create()
 ✅ Enregistrement automatique des véhicules
 
 ✅ Enregistrement automatique des armes
+
+✅ Obtention, à la demande, des informations d'un utilisateur.
 
 ✅ Obtention automatique des convocations lors de la connexion du personnage
