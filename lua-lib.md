@@ -5,7 +5,7 @@ title: Lua Lib | Themis
 
 # 📚 Themis Lua Lib
 
-![Version](https://img.shields.io/badge/Version-0.1.0--alpha.1-blue.svg)
+![Version](https://img.shields.io/badge/Version-0.1.0--beta.1-blue.svg)
 ![Lua](https://img.shields.io/badge/Lua-5.4%2B-blue.svg)
 
 Themis Lua Lib est la libraire Lua qui vous permettra de gérer les accès des personnages et des utilisateurs, **sans intervention manuelle**. Ainsi, chaque joueur a un compte et ses personnages sur la plateforme Themis.
