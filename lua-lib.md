@@ -84,9 +84,38 @@ else
 end
 ```
 
+## 🚗 Création d'un permis de conduire
+
+Lorsqu'un personnage obtient son permis, ce-dit permis devra être enregistré sur Themis.
+
+```lua
+local Themis = exports['themis']:getThemis()
+if Themis then
+    -- Create the driving license instance.
+    local driving_license = Themis.DrivingLicense:new(
+        1,                      -- Character ID
+        "active"                -- Status (suspended | active | annuled)
+    )
+    -- Create the driving license into the Themis Website.
+    Themis.DrivingLicense:create(
+        driving_license,
+        function(success, driving_license)
+            if success then
+                print("Driving license id:", driving_license.id)
+                -- You can work with the new driving license here.
+            else
+                print("Failed to create driving license.")
+            end
+        end
+    )
+else
+    print("Themis is not accessible.")
+end
+```
+
 ## 📈 Évolutions futures
 
-✅ Enregistrement automatique du permis de conduire
+~~✅ Enregistrement automatique du permis de conduire~~
 
 ✅ Enregistrement automatique des véhicules
 
