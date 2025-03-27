@@ -3,7 +3,7 @@ layout: default
 title: Lua Lib | Themis
 ---
 
-# 📚 Themis Bibliothèque Lua
+# 📚 Themis Lua Lib
 
 ![Version](https://img.shields.io/badge/Version-0.1.0--beta.1-blue.svg)
 ![Lua](https://img.shields.io/badge/Lua-5.4%2B-blue.svg)
