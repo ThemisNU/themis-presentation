@@ -5,12 +5,16 @@ title: Lua Lib | Themis
 
 # 📚 Themis Lua Lib
 
-![Version](https://img.shields.io/badge/Version-0.1.0--beta.1-blue.svg)
+![Version](https://img.shields.io/badge/Version-0.1.0--beta.2-blue.svg)
 ![Lua](https://img.shields.io/badge/Lua-5.4%2B-blue.svg)
 
 © 2025 BOYER David et COZE Sébastien. Tous droits réservés. Cette API est protégée par les lois sur le droit d'auteur. Consultez le fichier LICENSE pour plus d'informations.
 
 Themis Bibliothèque Lua est la bibliothèque Lua qui vous permet de gérer l'accès des personnages et des utilisateurs **sans intervention manuelle**. Chaque joueur dispose d'un compte et de ses personnages sur la plateforme Themis.
+
+## 💼 ESX
+
+Si vous utilisez le framework ESX, le création des utilisateurs, des personnages et des permis se fait automatiquement.
 
 ## 👤 Créer un utilisateur
 
@@ -193,6 +197,9 @@ local characters = Character.getByUserId(589)
 
 ~~✅ Enregistrement automatique des armes~~  
 
+✅ Récupération des informations utilisateur à la demande  
+
+✅ Récupération automatique des convocations lorsque le personnage se connecte  
 ✅ Récupération des informations utilisateur à la demande  
 
 ✅ Récupération automatique des convocations lorsque le personnage se connecte  
