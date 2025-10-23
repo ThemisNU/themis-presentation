@@ -14,7 +14,7 @@ Themis Bibliothèque Lua est la bibliothèque Lua qui vous permet de gérer l'ac
 
 ## 💼 ESX
 
-Si vous utilisez le framework ESX, le création des utilisateurs, des personnages et des permis se fait automatiquement.
+Si vous utilisez le framework ESX, la création des utilisateurs, des personnages et des permis se fait automatiquement.
 
 ## 👤 Créer un utilisateur
 
